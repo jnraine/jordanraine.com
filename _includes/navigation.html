@@ -3,11 +3,21 @@
   <ul class="header-links">
     {% if site.about_enabled == true %}
       <li>
-        <a href="{{ 'about' | relative_url }}" title="About me">
-          {% include svg-icon.html icon="about" %}
+        <a href="{{ 'about' | relative_url }}" title="About">
+          About
         </a>
       </li>
     {% endif %}
+    <li>
+      <a href="{{ 'resume' | relative_url }}" title="Resume">
+        Resume
+      </a>
+    </li>
+    <li>
+      <a href="{{ 'blog' | relative_url }}" title="Blog">
+        Blog
+      </a>
+    </li>
     {% if site.social.twitter %}
       <li>
         <a href="https://twitter.com/{{ site.social.twitter }}" rel="noreferrer noopener" target="_blank" title="Twitter">
