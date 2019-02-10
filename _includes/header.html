@@ -1,15 +1,19 @@
 <div class="container-fluid blog-header">
   <div class="row">
-    <div class="col offset-lg-2 col-lg-8">
-      <div class="pt-3">
-        <div class="site-headshot d-flex flex-row justify-content-center align-items-center pb-3">
-          <a rel="author" href="{{ "/" | relative_url }}">
-            <img src="/assets/profile.jpg" class="headshot" alt="Jordan Raine headshot">
-          </a>
-        </div>
-        <div class="site-header d-flex flex-row align-items-baseline">
-          <span class="site-title text-theme mr-auto">{{ site.title | escape }}</span>
-          <div class="site-links">
+    <div class="col offset-lg-2 col-lg-8 pt-3 text-center">
+      <a rel="author" href="{{ "/" | relative_url }}">
+        <img src="/assets/profile.jpg" class="headshot" alt="Jordan Raine headshot">
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col offset-lg-2 col-lg-8 pt-3">
+      <div class="container-fluid">
+        <div class="row align-items-end site-header">
+          <div class="col-12 col-sm-6 text-center text-sm-left mr-auto">
+            <span class="site-title text-theme mr-auto">{{ site.title | escape }}</span>
+          </div>
+          <div class="col-12 col-sm-6 text-center text-sm-right site-links mt-3 mt-sm-0">
             <a class="px-2 text-theme {% if "/" == page.url %}current{% endif %}" href="/">About</a>
             {%- assign default_paths = site.pages | map: "path" -%}
             {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -34,7 +38,7 @@
             {%- endif -%}
           </div>
         </div>
-      </div>
     </div>
   </div>
+
 </div>
