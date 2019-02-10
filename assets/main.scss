@@ -8,7 +8,7 @@ $title-font: 'Space Mono';
 $content-font: 'Open Sans';
 
 body {
-  font-family: $content-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .headshot {
@@ -49,7 +49,14 @@ body {
 }
 
 a {
-  color: $theme-blue!important;
+  color: $theme-blue;
+  font-weight: 500;
+
+  &:hover {
+    color: $theme-blue;
+    border-bottom: 2px solid $theme-blue;
+    text-decoration: none;
+  }
 }
 
 .site-title {
