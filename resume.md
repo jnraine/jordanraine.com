@@ -50,6 +50,7 @@ I've been working as a software developer since 2009. I've spent time on the fro
 
 ## Other work
 
+- [Code Spelunking: teach yourself how Rails works](https://speakerdeck.com/jnraine/code-spelunking-teach-yourself-how-rails-works), RailsConf 2019
 - [Ten Years of Rails Upgrades](https://www.youtube.com/watch?v=6aCfc0DkSFo), RailsConf 2018
 - [Ruby Spelunking](https://www.rubytapas.com/2018/08/13/ruby-spelunking/), RubyTapas
 
