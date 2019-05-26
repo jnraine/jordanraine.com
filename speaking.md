@@ -14,7 +14,7 @@ Using method introspection, this talk will show you ways to confidently explore 
 Let’s go spelunking!
 
 **RailsConf – Minneapolis, MN – May 2, 2019**<br>
-[Slides](https://speakerdeck.com/jnraine/code-spelunking-teach-yourself-how-rails-works) – Video coming soon
+[Slides](https://speakerdeck.com/jnraine/code-spelunking-teach-yourself-how-rails-works) – 📹 [Watch the video](https://www.youtube.com/watch?v=LiyLXklIQHc)
 
 ## Ten Years of Rails Upgrades
 
@@ -27,3 +27,10 @@ By looking at the past ten years of Rails upgrades at Clio (and other notable ap
 
 **VanRuby – Vancouver, Canada – October 18, 2018**<br>
 [Slides](https://speakerdeck.com/jnraine/ten-years-of-rails-upgrades) – 📹 [Watch the video](https://www.youtube.com/watch?v=6aCfc0DkSFo)
+
+## Work like an attorney, think like a developer
+
+This is a talk I did for Clio's user conference, Clio Cloud Conference. The audience was made up of attorneys and other legal professionals and covers how to build custom workflows using Zapier and Clio.
+
+**Clio Cloud Conference – New Orleans, LA — October 5, 2018**<br>
+📹 [Watch the video](https://www.youtube.com/watch?v=B9hUfSTcruU)
